@@ -11,7 +11,7 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-    System.out.println("now try");
+    System.out.println("now change");
     System.out.println("This is the PC and it s a bloody big one");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
