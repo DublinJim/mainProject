@@ -11,12 +11,12 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        System.out.println("I hate this");
-        System.out.println("This is the laptop");
+    System.out.println("now try");
+    System.out.println("This is the PC");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Rebase");
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        stage.setTitle("Desktop pc");
         stage.setScene(scene);
         stage.show();
     }
