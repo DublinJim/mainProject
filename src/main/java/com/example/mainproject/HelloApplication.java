@@ -23,18 +23,7 @@ public class HelloApplication extends Application {
         System.out.println("push from desktop");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-    System.out.println( "line 27 going form desktop to git");
-    //a new commenetd line also
-        //and another
-        //and agaib
-        // another commit
-        stage.setTitle("Desktop pc for sure");
-        System.out.println("added more code");
-        stage.setTitle("Laptop");
-//lets make a commit here
-        stage.setScene(scene);
-        stage.show();
+
         System.out.println("added more code");
 
     }
