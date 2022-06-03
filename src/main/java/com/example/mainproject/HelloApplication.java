@@ -17,7 +17,25 @@ public class HelloApplication extends Application {
 
         System.out.println("June 3 ");
 
+        System.out.println("added code");
+        System.out.println("added more code");
 
+        System.out.println("push from desktop");
+        FXMLLoader fxmlLoader = new FXMLLoader(
+            HelloApplication.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+    System.out.println( "line 27 going form desktop to git");
+    //a new commenetd line also
+        //and another
+        //and agaib
+        // another commit
+        stage.setTitle("Desktop pc for sure");
+        System.out.println("added more code");
+        stage.setTitle("Laptop");
+
+        stage.setScene(scene);
+        stage.show();
+        System.out.println("added more code");
 
     }
 }
