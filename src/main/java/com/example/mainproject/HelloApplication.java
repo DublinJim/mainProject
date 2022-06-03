@@ -32,7 +32,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Desktop pc for sure");
         System.out.println("added more code");
         stage.setTitle("Laptop");
-
+//lets make a commit here
         stage.setScene(scene);
         stage.show();
         System.out.println("added more code");
