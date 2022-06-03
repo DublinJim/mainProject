@@ -25,6 +25,10 @@ public class HelloApplication extends Application {
             HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
     System.out.println( "line 27 going form desktop to git");
+    //a new commenetd line also
+        //and another
+        //and agaib
+        // another commit
         stage.setTitle("Desktop pc for sure");
         System.out.println("added more code");
         stage.setTitle("Laptop");
