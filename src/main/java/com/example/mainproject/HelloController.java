@@ -10,6 +10,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("This dosent matter");
+        welcomeText.setText("from the new branch matter");
     }
 }
