@@ -20,7 +20,7 @@ public class HelloApplication extends Application {
         System.out.println("added code");
         System.out.println("added more code");
 
-        System.out.println("push 1");
+        System.out.println("push from desktop");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
