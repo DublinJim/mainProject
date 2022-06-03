@@ -10,6 +10,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Make it so on the master");
+        welcomeText.setText("second edition");
     }
 }

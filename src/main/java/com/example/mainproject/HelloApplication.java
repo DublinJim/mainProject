@@ -26,10 +26,12 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
 
         stage.setTitle("Desktop pc for sure");
-
+        System.out.println("added more code");
         stage.setTitle("Laptop");
 
         stage.setScene(scene);
         stage.show();
+        System.out.println("added more code");
+        System.out.println("added more code");
     }
 }
