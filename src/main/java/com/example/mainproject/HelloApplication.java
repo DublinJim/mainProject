@@ -15,7 +15,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        System.out.println("this is my pc ");
+        System.out.println("June 3 ");
 
         System.out.println("added code");
 
