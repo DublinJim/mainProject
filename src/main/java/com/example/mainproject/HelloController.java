@@ -10,6 +10,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("from the laptiop");
+        welcomeText.setText("A new hope");
     }
 }
