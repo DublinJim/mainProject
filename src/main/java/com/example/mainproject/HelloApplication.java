@@ -24,7 +24,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-
+// nothing here
         stage.setTitle("Desktop pc for sure");
         System.out.println("added more code");
         stage.setTitle("Laptop");
