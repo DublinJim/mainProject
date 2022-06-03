@@ -32,6 +32,6 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
         System.out.println("added more code");
-        System.out.println("added more code");
+
     }
 }
