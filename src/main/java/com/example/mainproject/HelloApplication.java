@@ -1,9 +1,7 @@
 package com.example.mainproject;
 
-import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class HelloApplication extends Application {
@@ -13,13 +11,13 @@ public class HelloApplication extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
 
         System.out.println("June 3 ");
 
         System.out.println("added code");
         System.out.println("added more code");
-
+//added today 8/6
         System.out.println("push from desktop");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
