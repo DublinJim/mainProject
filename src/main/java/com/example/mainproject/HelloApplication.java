@@ -21,6 +21,7 @@ public class HelloApplication extends Application {
         System.out.println("push from desktop");
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
+//add more
 
         System.out.println("added more code");
 
