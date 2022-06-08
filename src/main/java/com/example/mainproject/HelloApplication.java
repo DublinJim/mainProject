@@ -22,6 +22,7 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
 //add more
+no ipp
 
         System.out.println("added more code");
 
